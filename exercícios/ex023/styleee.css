@@ -1,0 +1,30 @@
+@charset "UTF8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 400px;
+}
+
+caption {
+    font-size: 1.3em;
+    font-weight:bolder;
+    padding: 10px;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+col.cnome, col.cprof {
+    background-color: chartreuse;
+}
+
+col.cgrupo {
+    background-color: yellow;
+}

@@ -1,2 +1,34 @@
 @charset "UTF8";
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+table {
+    border-collapse: collapse;
+    width: 450px;
+    
+}
+
+ td {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.thead {
+    background-color: rgb(133, 132, 132);
+    color: white;
+    border: 2px solid black;
+}
+
+.box {
+    border-collapse: collapse;
+    border: 2px solid black;
+    
+}
+
+#principal, #principal-01 {
+    text-align: left;
+    text-indent: 10px;
+}
